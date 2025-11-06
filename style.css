@@ -1,0 +1,166 @@
+body {
+  font-family: "Inter";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Literata", serif;
+  font-style: normal;
+}
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./img/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
+}
+nav {
+  border-bottom: 1px solid rgba(183, 183, 183, 0.494);
+}
+.menu-links {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.nav-items {
+  gap: 40px;
+}
+.hero {
+  padding: 100px 0 150px 0;
+  /* width: 60%; */
+}
+.hero h1 {
+  font-weight: 500;
+  font-size: clamp(2.5rem, 8vw, 115px);
+  line-height: 1.1;
+  letter-spacing: -2px;
+  color: #ffffff;
+}
+.hero p {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  padding: 30px 0;
+}
+button {
+  padding: 10px 36px;
+  gap: 8px;
+  background: #e4c620;
+  border-radius: 50px;
+  border-style: none;
+}
+
+/* Main */
+
+main {
+  background-color: #bb3a12;
+  padding: 150px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-content {
+  /* display: flex; */
+  padding: 60px 40px 80px 40px;
+  background-color: #ffffff;
+}
+
+.about-content h2 {
+  font-family: "Literata";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 72px;
+  letter-spacing: -2px;
+
+  color: #bb3a12;
+}
+.about-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #28252e;
+}
+
+.about-content button {
+  background-color: #fff;
+  color: #bb3a12;
+  border: 1px solid #bb3a12;
+  display: block;
+}
+.avout-img {
+  background-color: #fff;
+}
+
+/* Menu Style */
+.menu {
+  padding: 100px 0;
+  background-color: #28252e;
+}
+.menu h2 {
+  font-family: "Literata";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 72px;
+  letter-spacing: -2px;
+  color: #ffffff;
+  text-align: center;
+}
+.menu-container {
+  margin-top: 80px;
+}
+.menu-card {
+  color: #fff;
+}
+.menu-card-content {
+  background-color: #3e3a42;
+  /* padding: 20px; */
+  margin-left: -20px;
+  /* height: 180px;x */
+}
+
+.contact {
+  padding-top: 200px;
+  background-color: #755d56;
+}
+.contact h2 {
+  font-family: "Literata";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 72px;
+  letter-spacing: -2px;
+  color: #bb3a12;
+}
+.contact form {
+  margin-top: 40px;
+}
+.contact form .form-control {
+  background-color: #f8f8f8;
+  border: none;
+}
+.contact form .form-control:focus {
+  box-shadow: none;
+  border: 2px solid #bb3a12;
+}
+
+.contact-left {
+  background-color: #fff4e2;
+}
+.contact-right {
+  background-color: #dfceb2;
+}
+.contact h5 {
+  color: #bb3a12;
+}
